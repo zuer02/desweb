@@ -1,0 +1,31 @@
+body{
+    font-family: 'Kablammo', sans-serif;
+}
+h1{
+    text-align: center;
+}
+a{
+    color:black;
+}
+.enigmas{
+    display: flex;
+    justify-content:center;
+    border: 100px;
+    border-color: blueviolet;
+    width: 759px;
+    height: 695px;
+    background-color: rgb(26, 6, 6);
+    margin-left: 10%;
+    background-image: url('../img/cavalo.jpeg');
+    background-color: rgb(26, 6, 6);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+#canvas-confetti {
+    position: fixed;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+  }
